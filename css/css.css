@@ -238,6 +238,10 @@ p{
 
 /* Demos Menu
  * --------------------------------------- */
+ .fp-controlArrow.fp-prev{ left: 50px !important;border-color:transparent rgba(255,255,255,.6) transparent transparent !important}
+
+.fp-controlArrow.fp-next{ right: 50px !important;border-color:transparent transparent transparent  rgba(255,255,255,.6) !important}
+
  #demosMenu{
 	position:fixed;
 	bottom: 10px;
