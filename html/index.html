@@ -14,52 +14,33 @@
 		<div id="header">
 			<div class="toolbar">
 				<div class="lan pull-left">
-					<span>简体中文</span>
-					<span>fg</span>
-					<span>English</span>
+					<img src="../images/icon_earth.png" alt="" />
+					<span><a href="#">简体中文</a></span>
+					<span class="fg">|</span>
+					<span><a href="#">English</a></span>
 				</div>
 				<div class="search pull-right">
-					<input type="text" type="search" />
+					<input type="text" type="search" class="search_input"/>
+					<button class="search_btn" title="查询"></button>
 				</div>
 			</div>
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="container-fluid">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#">菜鸟教程</a>
+						<a class="navbar-brand" href="#"><img src="../images/logo.png" alt="" /></a>
 					</div>
 					<div>
-						<ul class="nav navbar-nav">
-							<li class="active">
-								<a href="#">iOS</a>
+						<ul class="nav navbar-nav pull-right" id="navMenu">
+							<li class="active" data-menuanchor="HOME">
+								<a href="#HOME">首页</a>
 							</li>
-							<li>
-								<a href="#">SVN</a>
+							<li data-menuanchor="CORPORATE_SECTOR">
+								<a href="#CORPORATE_SECTOR">集团业务</a>
 							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-									Java
-									<b class="caret"></b>
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="#">jmeter</a>
-									</li>
-									<li>
-										<a href="#">EJB</a>
-									</li>
-									<li>
-										<a href="#">Jasper Report</a>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<a href="#">分离的链接</a>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<a href="#">另一个分离的链接</a>
-									</li>
-								</ul>
-							</li>
+							<li data-menuanchor="T"><a href="#">企业文化</a></li>
+							<li data-menuanchor="NEWS_AND_TRENDS"><a href="#NEWS_AND_TRENDS">新闻动态</a></li>
+							<li data-menuanchor="ABOUT_US"><a href="#ABOUT_US">关于我们</a></li>
+							 
 						</ul>
 					</div>
 				</div>
@@ -70,7 +51,7 @@
 			<!--section begin-->
 			<div class="section" id="section0">
 				<div class="slide slide_banner1" id="slide1">
-					<div class="intro">
+					<div class="intro" style="padding-top:20%">
 
 						<img src="../images/banner_1_text.png" alt="" />
 					</div>
@@ -220,51 +201,82 @@
 			<!--section begin-->
 			<div class="section big_bg_4" id="section4">
 				<div class="intro">
-					<h1><span class="intro_title">企业信息化</span> <em>THE ENTERPRISE INFORMATION</em></h1>
-					<p class="intro_text_big">聚焦智慧办公，致力于成为中国智能制造领域的探路者</p>
-					<p class="intro_text_sm">主攻方向为通用移动办公管理（如日程、任务、即时通讯、移动审批、考勤打卡等）和细分行业专业管理（如项目主导型行业的项目管理等）， 并可一定程度上实现定制化来满足客户需求。
-					</p>
-					<div class="btn btn_introbtn">了解详情</div>
-					<div class="show_icons">
-						<ul class="show_icons_list">
-							<li>
-								<div class="border_bg_cir">
-									<img src="../images/section-big_2_icon_1.png" alt="" />
-									<div class="border_bg"></div>
+					<h1 class="border_h1">
+						<span class="intro_title">新闻动态</span> 
+						<em>NEWS AND TRENDS</em>
+					</h1>
+					<div class="container">
+						
+					
+					<div class="row">
+						<div class="col-md-6 col-sm-6  ">
+							<div class="index_news">
+								<div class="index_news_img">
+									<img src="../images/news_bg_1.jpg" width="100%" alt="" />
 								</div>
-								<div class="show_icons_text">
-									元器件类
+								<div class="index_news_head">
+									<a href="#">活动回顾｜琅拓科617学习反思日活动精彩花絮</a>
 								</div>
-							</li>
-							<li>
-								<div class="border_bg_cir">
-									<img src="../images/section-big_2_icon_2.png" alt="" />
-									<div class="border_bg"></div>
+								<div class="index_news_body">
+									琅拓科电子集团现有的主要成员企业：北京琅拓科投资管理有限公司、北京琅拓科电子设备有限公司、成都琅拓科微波设备有限公司以及北京琅拓科测试设备有限公司。北京琅拓科投资管理有限公司，致力打造琅拓科电子集团在资本市场具有综合竞争力。北京琅拓科电子设备有限公司是一家集研发、生产、销售于一体的高新技术企业。成都琅拓科微波设备有限公司侧重于射频模块，收发组件等产品的开发，生产和销售。
 								</div>
-								<div class="show_icons_text">
-									垂直领域
+								<div class="index_news_foot">
+									<div class="time">2016-10-3</div>
+									<div class="more">
+										<a href="#">更多>></a>
+									</div>
 								</div>
-							</li>
-							<li>
-								<div class="border_bg_cir">
-									<img src="../images/section-big_2_icon_3.png" alt="" />
-									<div class="border_bg"></div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="index_news_item">
+								<div class="index_news_item_img "><img src="../images/news_item_img_1.jpg" width="100%" alt="" /></div>
+								<div class="index_news_item_content ">
+									<div class="index_news_item_text">
+										<a href="#">媒体报道｜华为企业BG瞄准金融业 未来 5年收入将过千亿
+										</a>
+									</div>
+									<div class="index_news_item_foot">
+										<div class="time pull-left">2016-10-3</div>
+										<div class="more pull-right">
+											<a href="#">更多>></a>
+										</div>
+									</div>
 								</div>
-								<div class="show_icons_text">
-									咨询管理
+							</div>
+							<div class="index_news_item">
+								<div class="index_news_item_img "><img src="../images/news_item_img_2.jpg" width="100%" alt="" /></div>
+								<div class="index_news_item_content ">
+									<div class="index_news_item_text">
+										<a href="#">媒体报道｜华为企业BG瞄准金融业 未来 5年收入将过千亿
+										</a>
+									</div>
+									<div class="index_news_item_foot">
+										<div class="time pull-left">2016-10-3</div>
+										<div class="more pull-right">
+											<a href="#">更多>></a>
+										</div>
+									</div>
 								</div>
-							</li>
-							<li>
-								<div class="border_bg_cir">
-									<img src="../images/section-big_2_icon_4.png" alt="" />
-									<div class="border_bg"></div>
+							</div>
+							<div class="index_news_item">
+								<div class="index_news_item_img "><img src="../images/news_item_img_3.jpg" width="100%" alt="" /></div>
+								<div class="index_news_item_content ">
+									<div class="index_news_item_text">
+										<a href="#">媒体报道｜华为企业BG瞄准金融业 未来 5年收入将过千亿
+										</a>
+									</div>
+									<div class="index_news_item_foot">
+										<div class="time pull-left">2016-10-3</div>
+										<div class="more pull-right">
+											<a href="#">更多>></a>
+										</div>
+									</div>
 								</div>
-								<div class="show_icons_text">
-									定制化服务
-								</div>
-							</li>
-						</ul>
+							</div>
+						</div>
 					</div>
+</div>
 					<div class="angle_down">
 						<img src="../images/arr_down.png" alt="" />
 					</div>
@@ -273,68 +285,51 @@
 
 			<!--section end-->
 			<!--section begin-->
-			<div class="section big_bg_5" id="section5">
+			<div class="section big_bg_5 line_bg" id="section5">
 				<div class="intro">
-					<h1><span class="intro_title">企业信息化</span> <em>THE ENTERPRISE INFORMATION</em></h1>
-					<p class="intro_text_big">聚焦智慧办公，致力于成为中国智能制造领域的探路者</p>
-					<p class="intro_text_sm">主攻方向为通用移动办公管理（如日程、任务、即时通讯、移动审批、考勤打卡等）和细分行业专业管理（如项目主导型行业的项目管理等）， 并可一定程度上实现定制化来满足客户需求。
-					</p>
-					<div class="btn btn_introbtn">了解详情</div>
-					<div class="show_icons">
-						<ul class="show_icons_list">
-							<li>
-								<div class="border_bg_cir">
-									<img src="../images/section-big_2_icon_1.png" alt="" />
-									<div class="border_bg"></div>
+					<h1 class="border_h1">
+						<span class="intro_title">关于我们</span> 
+						<em>ABOUT US</em>
+					</h1>
+					<ul class="about_warp">
+						<li><img src="../images/about_img_1.jpg" alt="" width="100%" /></li>
+						<li><div class="about_content bg-color-white">
+								<div class="about_content_title">公司简介</div>
+								<div class="about_content_text">
+									活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮
 								</div>
-								<div class="show_icons_text">
-									元器件类
+							</div></li>
+						<li><img src="../images/about_img_2.jpg" alt="" width="100%" /></li>
+						<li><div class="about_content bg-color-white">
+								<div class="about_content_title">文化理念</div>
+								<div class="about_content_text">
+									活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮
 								</div>
-							</li>
-							<li>
-								<div class="border_bg_cir">
-									<img src="../images/section-big_2_icon_2.png" alt="" />
-									<div class="border_bg"></div>
-								</div>
-								<div class="show_icons_text">
-									垂直领域
-								</div>
-							</li>
-							<li>
-								<div class="border_bg_cir">
-									<img src="../images/section-big_2_icon_3.png" alt="" />
-									<div class="border_bg"></div>
-								</div>
-								<div class="show_icons_text">
-									咨询管理
-								</div>
-							</li>
-							<li>
-								<div class="border_bg_cir">
-									<img src="../images/section-big_2_icon_4.png" alt="" />
-									<div class="border_bg"></div>
-								</div>
-								<div class="show_icons_text">
-									定制化服务
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="angle_down">
-						<img src="../images/arr_down.png" alt="" />
-					</div>
-				</div>
-			</div>
-			<!--section end-->
-			<!--section begin-->
-			<div class="section big_bg_6" id="section6">
-				<div class="intro">
-					<h1><span class="intro_title">发展历程</span> <em>DEVELOPMENT COURSE</em></h1>
-					<div class="timeline">
-						<div class="timeline_arrow">
-							<img src="../images/arr_down_timeline.png" alt="" />
+							</div></li>
+						<li><img src="../images/about_img_3.jpg" alt="" width="100%" /></li>
+						<li><div class="about_content bg-color-white">
+									<div class="about_content_title">企业文化</div>
+									<div class="about_content_text">
+										活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮活动回顾｜琅拓科617学习反思日活动精彩花絮
+									</div>
+								</div></li>
+					</ul>
+				 
+							<div class="angle_down">
+								<img src="../images/arr_down.png" alt="" />
+							</div>
 						</div>
-						<!--<ul class="timeline_list">
+					</div>
+					<!--section end-->
+					<!--section begin-->
+					<div class="section big_bg_6" id="section6">
+						<div class="intro">
+							<h1><span class="intro_title">发展历程</span> <em>DEVELOPMENT COURSE</em></h1>
+							<div class="timeline">
+								<div class="timeline_arrow">
+									<img src="../images/arr_down_timeline.png" alt="" />
+								</div>
+								<!--<ul class="timeline_list">
 					 		<li class="timeline_item timeline_item_left">
 					 			<div class="timeline_item_content">
 					 				<div class="timeline_item_time">2013nian </div>
@@ -351,90 +346,92 @@
 					 		<li class="timeline_item timeline_item_right">1</li>
 					 	</ul>-->
 
-						<section id="cd-timeline" class="cd-container">
-							<div class="cd-timeline-block">
-								<div class="cd-timeline-img cd-picture">
+								<section id="cd-timeline" class="cd-container">
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img cd-picture">
 
-								</div>
+										</div>
 
-								<div class="cd-timeline-content">
-									<h2>2014年</h2>
-									<p>2014年 南京片区和西安片区的办事处人员和业务稳步增长，为集团的全国战略打下基础；</p>
+										<div class="cd-timeline-content">
+											<h2>2014年</h2>
+											<p>2014年 南京片区和西安片区的办事处人员和业务稳步增长，为集团的全国战略打下基础；</p>
 
+										</div>
+									</div>
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img cd-movie">
+
+										</div>
+
+										<div class="cd-timeline-content">
+											<h2>2013年</h2>
+											<p>2013年 成都琅拓科信息技术有限公司正式成立、整合了“众库网”电子商务平台的资源、新成立“我来帮你”企业服务平台；</p>
+
+										</div>
+									</div>
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img cd-picture">
+
+										</div>
+
+										<div class="cd-timeline-content">
+											<h2>2012年</h2>
+											<p>2012年 随着公司的快速发展 相继成立了北京琅拓科投资管理有限公司和成都琅拓科微波设备有限公司；</p>
+
+										</div>
+									</div>
+									<div class="cd-timeline-block">
+										<div class="cd-timeline-img cd-movie">
+
+										</div>
+
+										<div class="cd-timeline-content">
+											<h2>2011年</h2>
+											<p>2011年 北京琅拓科进行股份制改造 一方面进行骨干员工持股 另一方面引进外部战略投资者；
+											</p>
+
+										</div>
+									</div>
+
+								</section>
+								<div class="btn btn_introbtn no-margin">
+									<a href="#">查看更多</a>
 								</div>
 							</div>
-							<div class="cd-timeline-block">
-								<div class="cd-timeline-img cd-movie">
 
-								</div>
+							<img src="../images/arr_down.png" alt="" />
+						</div>
+						<div id="foot">
+							<ul class="foot_nav">
+								<li>
+									<a href="#">法律声明</a>
+								</li>
+								<li class="fg_v"></li>
+								<li>
+									<a href="#">隐私保护</a>
+								</li>
+								<li class="fg_v"></li>
 
-								<div class="cd-timeline-content">
-									<h2>2013年</h2>
-									<p>2013年 成都琅拓科信息技术有限公司正式成立、整合了“众库网”电子商务平台的资源、新成立“我来帮你”企业服务平台；</p>
+								<li>
+									<a href="#">联系我们</a>
+								</li>
+								<li class="fg_v"></li>
 
-								</div>
-							</div>
-							<div class="cd-timeline-block">
-								<div class="cd-timeline-img cd-picture">
-
-								</div>
-
-								<div class="cd-timeline-content">
-									<h2>2012年</h2>
-									<p>2012年 随着公司的快速发展 相继成立了北京琅拓科投资管理有限公司和成都琅拓科微波设备有限公司；</p>
-
-								</div>
-							</div>
-							<div class="cd-timeline-block">
-								<div class="cd-timeline-img cd-movie">
-
-								</div>
-
-								<div class="cd-timeline-content">
-									<h2>2011年</h2>
-									<p>2011年 北京琅拓科进行股份制改造 一方面进行骨干员工持股 另一方面引进外部战略投资者；
-									</p>
-
-								</div>
-							</div>
-
-						</section>
-						<div class="btn btn_introbtn"><a href="#">查看更多</a></div>
+								<li>
+									<a href="#">网站地图</a>
+								</li>
+							</ul>
+							<div class="webinfo">
+								<span class="copyright">版权所有 © 琅拓科电子集团 2009-2015</span>
+								<span class="ipc">京ICP备13017347号</span>
+								<a href="#" class="webhref">
+									www.lottak.com </div>
+						</div>
 					</div>
 
-					<img src="../images/arr_down.png" alt="" />
-				</div>
-				<div id="foot">
-					<ul class="foot_nav">
-						<li>
-							<a href="#">法律声明</a>
-						</li>
-						<li class="fg_v"></li>
-						<li>
-							<a href="#">隐私保护</a>
-						</li>
-						<li class="fg_v"></li>
-
-						<li>
-							<a href="#">联系我们</a>
-						</li>
-						<li class="fg_v"></li>
-
-						<li>
-							<a href="#">网站地图</a>
-						</li>
-					</ul>
-					<div class="webinfo">
-						<span class="copyright">版权所有 © 琅拓科电子集团 2009-2015</span>
-						<span class="ipc">京ICP备13017347号</span>
-						<a href="#" class="webhref">
-							www.lottak.com </div>
 				</div>
 			</div>
-
-		</div>
-		</div>
-		<!--section end-->
+			<!--section end-->
 
 		</div>
 	</body>
@@ -443,13 +440,15 @@
 	<script>
 		$(function() {
 			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4fourPage', "5fivePage", "6sixPage", "7sevenPage"],
-				sectionsColor: ['#ffffff', '#ffffff', '#ffffff', 'ecf0f1', 'ecf0f1', 'ecf0f1'],
+				anchors: ['HOME', 'CORPORATE_SECTOR', 'ELECTRONIC_COMMUNICATIONS', 'THE ENTERPRISE_INFORMATION', "NEWS_AND_TRENDS", "ABOUT_US", "DEVELOPMENT_COURSE"],
+				sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ecf0f1', '#ecf0f1', '#ecf0f1', '#ecf0f1'],
 				navigation: true,
 				navigationPosition: 'right',
-				verticalCentered:false,
+				verticalCentered: false,
+				//slidesColor: ['#ffffff', '#ffffff', '#ffffff', '#ecf0f1', '#ecf0f1', '#000000', '#ecf0f1'],
 				//navigationTooltips: ['First page', 'Second page', 'Third and last page','Third and last page','Third and last page','Third and last page','Third and last page'],
 				css3: true,
+				menu:"#navMenu",
 				afterLoad: function(anchorLink, index) {
 					if(index == 1) {
 						$("#header").removeClass("toolbar_hide").addClass("toolbar_show");
